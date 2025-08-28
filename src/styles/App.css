@@ -10,3 +10,48 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 5px;
+    background: #f9f9f9;
+    width:200px;
+}
+
+.review img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.review .author {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.review .job {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.review .info {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+footer button {
+    margin: 0 5px;
+}
