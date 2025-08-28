@@ -30,7 +30,7 @@ function Review({ data }) {
                 <img src={image} alt={name} className='person-img' />
             </header>
             <main>
-                <h2 className='author' id='author-id'>{name}</h2>
+                <h2 className='author' id={`author-${id}`}>{name}</h2>
                 <h3 className='job'>{job}</h3>
                 <p className='info'>{text}</p>
             </main>
